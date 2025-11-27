@@ -1,8 +1,8 @@
 import { Link, useLocation } from "wouter";
 import { useState, useEffect } from "react";
 import { Menu, X, Map } from "lucide-react";
-import { cn } from "@/lib/utils";
-import { Button } from "@/components/ui/button";
+import { cn } from "./lib/utils";
+import { Button } from "./components/ui/button";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);

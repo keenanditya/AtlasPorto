@@ -1,11 +1,11 @@
 // 👇 1. MATIIN BARIS INI (PENTING BANGET)
 // import SiteNavbar from "../components/SiteNavbar"; 
 
-import Hero from "../components/Hero";
-import Portfolio from "../components/Portfolio";
-import About from "../components/About";
-import Contact from "../components/Contact";
-import Footer from "../components/Footer";
+import Hero from "../components/HeroSection";
+import Portfolio from "../components/PortfolioSection";
+import About from "../components/AboutSection";
+import Contact from "../components/ContactSection";
+import Footer from "../components/FooterSection";
 
 export default function Home() {
   return (

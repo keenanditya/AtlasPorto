@@ -8,7 +8,7 @@ import { fileURLToPath } from "url";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-export default defineConfig({
+export default defineConfig({ server: { host: "0.0.0.0", port: 5000, allowedHosts: true },
   plugins: [
     react(),
     tailwindcss(),
@@ -17,7 +17,7 @@ export default defineConfig({
     alias: {
       // Alias @ menunjuk ke folder client/src dengan presisi tinggi
       "@": path.resolve(__dirname, "client", "src"),
-      "@shared": path.resolve(__dirname, "shared"),
+      "@shared": path.resolve(__dirname, "shared"), "@assets": path.resolve(__dirname, "attached_assets"),
     },
   },
   root: "client",

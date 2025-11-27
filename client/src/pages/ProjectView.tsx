@@ -1,14 +1,14 @@
 import { useRoute, Link } from "wouter";
 import { ArrowLeft, Calendar, Layers, Database, Download } from "lucide-react";
-import { Button } from "./components/ui/button";
-import Navbar from "./components/layout/Navbar";
-import Footer from "./components/layout/Footer";
-import { Badge } from "./components/ui/badge";
+import { Button } from "@/components/ui/button";
+import Navbar from "@/components/layout/Navbar";
+import Footer from "@/components/layout/Footer";
+import { Badge } from "@/components/ui/badge";
 
 // Import images
-import project1 from ".assets/generated_images/urban_planning_gis_interface.png";
-import project2 from ".assets/generated_images/remote_sensing_vegetation_analysis.png";
-import project3 from ".assets/generated_images/3d_terrain_analysis_model.png";
+import project1 from "@assets/generated_images/urban_planning_gis_interface.png";
+import project2 from "@assets/generated_images/remote_sensing_vegetation_analysis.png";
+import project3 from "@assets/generated_images/3d_terrain_analysis_model.png";
 
 // Mock data dictionary
 const projectsData = {

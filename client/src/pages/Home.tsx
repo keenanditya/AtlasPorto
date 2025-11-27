@@ -1,22 +1,26 @@
-// Panggil pake nama-nama BARU yang tadi lu rename
-import SiteNavbar from "../components/SiteNavbar";
-import HeroSection from "../components/HeroSection";
-import PortfolioSection from "../components/PortfolioSection";
-import AboutSection from "../components/AboutSection";
-import ContactSection from "../components/ContactSection";
-import SiteFooter from "../components/SiteFooter";
+// 👇 1. MATIIN BARIS INI (PENTING BANGET)
+// import SiteNavbar from "../components/SiteNavbar"; 
+
+import Hero from "../components/Hero";
+import Portfolio from "../components/Portfolio";
+import About from "../components/About";
+import Contact from "../components/Contact";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
     <div className="min-h-screen flex flex-col bg-background text-foreground selection:bg-primary/30 selection:text-primary-foreground">
-      <SiteNavbar />
+
+      {/* 👇 2. MATIIN JUGA YANG INI (Biar gak error di layar) */}
+      {/* <SiteNavbar /> */}
+
       <main className="flex-grow">
-        <HeroSection />
-        <PortfolioSection />
-        <AboutSection />
-        <ContactSection />
+        <Hero />
+        <Portfolio />
+        <About />
+        <Contact />
       </main>
-      <SiteFooter />
+      <Footer />
     </div>
   );
 }

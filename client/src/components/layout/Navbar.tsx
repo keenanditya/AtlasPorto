@@ -1,8 +1,8 @@
 import { Link, useLocation } from "wouter";
 import { useState, useEffect } from "react";
 import { Menu, X, Map } from "lucide-react";
-import { cn } from "./lib/utils";
-import { Button } from "./components/ui/button";
+import { cn } from "@/lib/utils";
+import { Button } from "@/components/ui/button";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -46,9 +46,11 @@ export default function Navbar() {
       )}
     >
       <div className="container mx-auto px-6 flex items-center justify-between">
-        <Link href="/" className="flex items-center gap-2 text-xl font-display font-bold tracking-tight hover:opacity-80 transition-opacity">
+        <Link href="/">
+          <a className="flex items-center gap-2 text-xl font-display font-bold tracking-tight hover:opacity-80 transition-opacity">
             <Map className="w-6 h-6 text-primary" />
             <span>ATLAS</span>
+          </a>
         </Link>
 
         {/* Desktop Nav */}

@@ -89,7 +89,9 @@ export default function ProjectView() {
         <div className="text-center">
           <h1 className="text-4xl font-bold mb-4">Project Not Found</h1>
           <Link href="/">
-            <Button variant="outline">Return Home</Button>
+            <a>
+              <Button variant="outline">Return Home</Button>
+            </a>
           </Link>
         </div>
       </div>
@@ -109,11 +111,9 @@ export default function ProjectView() {
           className="w-full h-full object-cover"
         />
         <div className="absolute bottom-0 left-0 right-0 z-20 p-6 md:p-12 container mx-auto">
-          <Link href="/#portfolio">
-            <a className="inline-flex items-center text-sm text-primary hover:text-primary/80 mb-6 transition-colors">
-              <ArrowLeft className="w-4 h-4 mr-2" />
-              Back to Portfolio
-            </a>
+          <Link href="/#portfolio" className="inline-flex items-center text-sm text-primary hover:text-primary/80 mb-6 transition-colors">
+            <ArrowLeft className="w-4 h-4 mr-2" />
+            Back to Portfolio
           </Link>
           <div className="flex items-center gap-4 mb-4">
             <Badge variant="outline" className="rounded-none border-primary text-primary bg-primary/10 px-3 py-1">

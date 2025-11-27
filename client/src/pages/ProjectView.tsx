@@ -1,9 +1,9 @@
 import { useRoute, Link } from "wouter";
 import { ArrowLeft, Calendar, Layers, Database, Download } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import Navbar from "@/components/layout/Navbar";
-import Footer from "@/components/layout/Footer";
-import { Badge } from "@/components/ui/badge";
+import { Button } from "./components/ui/button";
+import Navbar from "./components/layout/Navbar";
+import Footer from "./components/layout/Footer";
+import { Badge } from "./components/ui/badge";
 
 // Import images
 import project1 from "@assets/generated_images/urban_planning_gis_interface.png";

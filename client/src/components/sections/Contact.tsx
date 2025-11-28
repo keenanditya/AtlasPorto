@@ -7,28 +7,28 @@ export default function Contact() {
     {
       name: "Email",
       icon: <Mail className="w-6 h-6" />,
-      href: "mailto:hello@atlas-gis.com",
-      label: "hello@atlas-gis.com",
+      href: "mailto:faishol@mail.ru",
+      label: "faishol @mail.ru",
       color: "hover:text-primary hover:border-primary"
     },
     {
       name: "WhatsApp",
       icon: <Phone className="w-6 h-6" />,
-      href: "https://wa.me/1234567890",
-      label: "+1 (555) 123-4567",
+      href: "https://wa.me/62818212221",
+      label: "+62 (818) 212-221",
       color: "hover:text-green-500 hover:border-green-500"
     },
     {
       name: "LinkedIn",
       icon: <Linkedin className="w-6 h-6" />,
-      href: "https://linkedin.com",
+      href: "https://linkedin.com/in/faishol-jabar",
       label: "Connect on LinkedIn",
       color: "hover:text-blue-500 hover:border-blue-500"
     },
     {
       name: "Instagram",
       icon: <Instagram className="w-6 h-6" />,
-      href: "https://instagram.com",
+      href: "https://instagram.com/fssoul",
       label: "Follow on Instagram",
       color: "hover:text-pink-500 hover:border-pink-500"
     }

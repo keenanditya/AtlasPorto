@@ -25,14 +25,14 @@ export default function Hero() {
             transition={{ duration: 0.8 }}
           >
             <span className="inline-block px-3 py-1 border border-primary/30 bg-primary/10 text-primary text-sm font-mono tracking-widest mb-6">
-              GEOGRAPHY & GIS SPECIALIST
+              GIS & REMOTE SENSING
             </span>
             <h1 className="text-5xl md:text-7xl lg:text-8xl font-display font-bold leading-tight mb-6">
               Visualizing <span className="text-primary">Spatial</span> <br />
               Complexity.
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mb-10 leading-relaxed">
-              I bridge the gap between raw data and visual storytelling through advanced mapmaking, remote sensing, and geospatial analysis.
+              I bridge the gap between raw data and visual storytelling through creative mapmaking, remote sensing, and spatial analysis.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">

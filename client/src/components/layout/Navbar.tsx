@@ -49,7 +49,7 @@ export default function Navbar() {
         <Link href="/">
           <a className="flex items-center gap-2 text-xl font-display font-bold tracking-tight hover:opacity-80 transition-opacity">
             <Map className="w-6 h-6 text-primary" />
-            <span>ATLAS</span>
+            <span>FAIS WORKS</span>
           </a>
         </Link>
 

@@ -6,14 +6,17 @@ hidden = [".config", ".git", "generated-icon.png", "node_modules", "dist"]
 channel = "stable-24_05"
 
 [deployment]
-deploymentTarget = "autoscale"
+deploymentTarget = "static"
 build = ["npm", "run", "build"]
 publicDir = "dist/public"
-run = ["npm", "run", "start"]
 
 [[ports]]
 localPort = 5000
 externalPort = 80
+
+[[ports]]
+localPort = 45301
+externalPort = 3001
 
 [[ports]]
 localPort = 45445
@@ -40,8 +43,8 @@ author = "agent"
 
 [[workflows.workflow.tasks]]
 task = "shell.exec"
-args = "npm run dev"
+args = "npm run dev:client"
 waitForPort = 5000
 
 [agent]
-mockupState = "FULLSTACK"
+mockupState = "MOCKUP"

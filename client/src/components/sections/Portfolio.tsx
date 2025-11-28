@@ -63,7 +63,7 @@ export default function Portfolio() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
           {projects.map((project, index) => (
-            <Link key={project.id} href={`/project/${project.id}`} className="block">
+            <Link key={project.id} href={`/project/${project.id}`}>
               <motion.div
                 className="group cursor-pointer"
                 initial={{ opacity: 0, y: 20 }}

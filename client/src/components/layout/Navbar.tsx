@@ -48,7 +48,7 @@ export default function Navbar() {
       <div className="container mx-auto px-6 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2 text-xl font-display font-bold tracking-tight hover:opacity-80 transition-opacity">
           <Map className="w-6 h-6 text-primary" />
-          <span>ATLAS</span>
+          <span>FAIS•WORKS</span>
         </Link>
 
         {/* Desktop Nav */}

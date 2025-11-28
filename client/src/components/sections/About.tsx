@@ -2,14 +2,13 @@ import { Check } from "lucide-react";
 import { motion } from "framer-motion";
 
 const skills = [
-  "ArcGIS Pro & Online",
-  "QGIS & GRASS GIS",
-  "Python (ArcPy, GeoPandas)",
-  "Remote Sensing (ENVI, Erdas)",
-  "SQL & PostGIS",
+  "ArcGIS Pro",
+  "Quantum GIS",
+  "ENVI",
+  "Google Earth Engine",
   "Cartographic Design",
-  "Web Mapping (Leaflet, Mapbox)",
-  "LiDAR Data Processing"
+  "Photogrammetry",
+  "Drone Mapping"
 ];
 
 export default function About() {
@@ -28,13 +27,7 @@ export default function About() {
             </h2>
             <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
               <p>
-                I am a Geography student with a deep passion for spatial analysis and visualization. My work sits at the intersection of technical precision and aesthetic clarity.
-              </p>
-              <p>
-                With a background in environmental science and advanced training in GIS technologies, I help organizations understand their data through a spatial lens. Whether it's tracking urban sprawl, analyzing vegetation health, or modeling flood risks, I believe that a well-crafted map can reveal truths that spreadsheets cannot.
-              </p>
-              <p>
-                Currently, I am focusing on integrating machine learning workflows with satellite imagery to automate land cover classification in rapidly changing environments.
+                Undergraduate Geography student with a passion for GIS, graphic design, and tech in general. Gained valuable experience exploring GIS, remote sensing, and helping other students as a Practicum Assistant at Laboratorium Geografi. Currently diving deep with ArcGIS Pro on a solar potential mapping project. Looking for cool opportunities to learn and grow in geospatial field.
               </p>
             </div>
           </motion.div>
@@ -65,7 +58,7 @@ export default function About() {
               <div className="flex justify-between text-sm">
                 <div>
                   <span className="block text-muted-foreground mb-1">Education</span>
-                  <span className="font-display font-bold text-lg">B.S. Geography</span>
+                  <span className="font-display font-bold text-lg">Bachelor of Geography</span>
                 </div>
                 <div className="text-right">
                   <span className="block text-muted-foreground mb-1">Focus</span>
